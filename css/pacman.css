@@ -367,16 +367,16 @@ h3 {
 
 @media screen and (min-height:1200px), screen and (min-device-height : 1200px) { 
 	#panel, #home { 
-		zoom: 110%;
+		zoom: 135%;
 	}
 }
 
-@media screen and (max-width:1024px), screen and (min-device-width : 768px) and (max-device-width : 1024px) { 
+@media screen and (max-width:1200px), screen and (min-device-width : 768px) and (max-device-width : 1200px) { 
 	#home .help-button, #panel .help-button, #home .github, #sound, .sound { 
 		display: none;
 	}
 	#panel, #home { 
-		zoom: 55%;
+		zoom: 105%;
 	}
 	#control-up-big, #control-down-big, #control-left-big, #control-right-big { 
 		display: inline; 
@@ -385,7 +385,7 @@ h3 {
 }
 @media screen and (max-height:640px), screen and (min-device-height : 480px) and (max-device-height : 640px) and (-webkit-device-pixel-ratio: 3) { 
 	#panel, #home { 
-		zoom: 50%;
+		zoom: 60%;
 	}
 	#control-up-big, #control-down-big, #control-left-big, #control-right-big { 
 		display: inline; 
