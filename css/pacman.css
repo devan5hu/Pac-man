@@ -367,7 +367,7 @@ h3 {
 
 @media screen and (min-height:1200px), screen and (min-device-height : 1200px) { 
 	#panel, #home { 
-		zoom: 135%;
+		zoom: 110%;
 	}
 }
 
@@ -376,7 +376,7 @@ h3 {
 		display: none;
 	}
 	#panel, #home { 
-		zoom: 105%;
+		zoom: 55%;
 	}
 	#control-up-big, #control-down-big, #control-left-big, #control-right-big { 
 		display: inline; 
@@ -385,7 +385,7 @@ h3 {
 }
 @media screen and (max-height:640px), screen and (min-device-height : 480px) and (max-device-height : 640px) and (-webkit-device-pixel-ratio: 3) { 
 	#panel, #home { 
-		zoom: 60%;
+		zoom: 50%;
 	}
 	#control-up-big, #control-down-big, #control-left-big, #control-right-big { 
 		display: inline; 
