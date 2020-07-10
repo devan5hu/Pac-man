@@ -383,9 +383,9 @@ h3 {
 	} 
 
 }
-@media screen and (max-height:720px), screen and (min-device-height : 480px) and (max-device-height : 720px) and (-webkit-device-pixel-ratio: 3) { 
+@media screen and (max-height:1024px), screen and (min-device-height : 480px) and (max-device-height : 1024px) and (-webkit-device-pixel-ratio: 3) { 
 	#panel, #home { 
-		zoom: 60%;
+		zoom: 55%;
 	}
 	#control-up-big, #control-down-big, #control-left-big, #control-right-big { 
 		display: inline; 
